@@ -1,7 +1,7 @@
-"use client"
+
 import './styles.css'
 import { Inter } from 'next/font/google'
-import {ThemeProvider} from 'next-themes'
+
 const inter = Inter({ subsets: ['latin'] })
 import Head from 'next/head'
 export const metadata = {
