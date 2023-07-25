@@ -1,0 +1,44 @@
+.main{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 1rem 0;
+    color:#30475E;
+}
+.skills{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    filter: drop-shadow(0 0 0.5rem #9DB2BF);
+}
+@media only screen and (max-width: 1070px){
+    .main{
+        padding: 1.5rem;
+    }
+    .skills{
+    gap:2rem;  
+    
+}
+}
+@media only screen and (max-width: 700px){
+    .main{
+        padding: 0.75rem;
+    }
+    .heading{
+    font-size: 20px;
+}
+    .skills{
+    gap:1rem;  
+}
+.skill{
+    width: 35px;
+}
+}

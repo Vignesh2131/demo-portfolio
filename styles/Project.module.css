@@ -1,0 +1,134 @@
+.main{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+.heading{
+       font-size: 24px;
+    font-weight: 800;
+    padding: 1rem 0;
+    color:#30475E;
+}
+.image{
+    border-radius: 5px;
+}
+.cardWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 1rem 0;
+}
+
+.card{
+    background-color: #F5F5F5;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap:2rem;
+    border-radius: 5px;
+     box-shadow: 0.5px 0.5px 10px 5px #DDE6ED;
+}
+.info{
+    padding: 1rem 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F05454;
+}
+.description{
+   padding: 1rem 0;
+   text-align: center;
+}
+.tech{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.tech li{
+    padding: 5px 8px;
+    box-shadow: 0.5px 0.5px 3px 0.5px black;
+    border-radius: 5px;
+}
+.links{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.link:hover{
+    transform: scale(0.9);
+    filter: drop-shadow(0 0 0.5rem crimson);
+}
+@media only screen and (max-width: 1070px){
+    .main{
+        padding: 0.75rem 0;
+    }
+    .card{
+    background-color: #F5F5F5;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+   
+}
+.info{
+    padding: 0.5rem 0;
+    width: 500px;
+}
+.description{
+    padding: 0.5rem 0;
+}
+.links{
+    padding: 0.5rem 0;
+}
+.tech{
+    padding: 0.5rem 0;
+}
+}
+@media only screen and (max-width:700px){
+    .card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+   
+}
+.heading{
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+.info{
+    padding: 0.25rem 0;
+    width: 300px;
+}
+.title{
+    font-size: 18px;
+}
+.description{
+    padding: 0.25rem 0;
+    font-size: 15px;
+}
+.links{
+    padding: 0.25rem 0;
+    
+}
+.tech{
+    padding: 0.25rem 0;
+    font-size: 15px;
+}
+.cardWrapper{
+    row-gap: 0.75rem;
+}
+}

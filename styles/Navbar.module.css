@@ -1,0 +1,44 @@
+.nav{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem 0px;
+    font-size: 16px;
+    font-size: 600;
+}
+.brand{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.navItems{
+   
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    align-items:center;
+}
+.navButton{
+    color:white;
+    background-color: #F05454;
+    padding:6px 8px;
+    border-radius: 5px;
+}
+.navButton:hover{
+    filter: drop-shadow(0 0 0.5rem crimson);
+}
+@media only screen and (max-width: 700px) {
+  .nav{
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.75rem 0;
+  }
+  .brand{
+    font-size: 20px;
+  }
+  .navItems{
+    gap:1rem;
+  }
+}
