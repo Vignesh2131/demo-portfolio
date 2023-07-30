@@ -54,6 +54,7 @@
 .submit:hover{
     filter: drop-shadow(0 0 0.5rem crimson);
 }
+
 @media only screen and (max-width: 700px){
     .main{
         padding: 0.75rem 0;

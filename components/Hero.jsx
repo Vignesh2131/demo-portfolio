@@ -36,7 +36,7 @@ function Hero() {
       </div>
       <div>
         <Image
-          src="/portitachi.jpg"
+          src="/portfolio.jpg"
           width={300}
           height={300}
           alt="Profile"

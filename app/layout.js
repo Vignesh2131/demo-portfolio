@@ -17,8 +17,7 @@ export default function RootLayout({ children }) {
         <title>Vignesh Sadhu</title>
       </Head>
       <body className={inter.className} suppressHydrationWarning={true}>
-        {children}
-      </body>
+  {children}      </body>
     </html>
   );
 }
