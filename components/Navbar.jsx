@@ -5,8 +5,7 @@ import Link from 'next/link'
 
 function Navbar() {
     return (
-      <nav className={styles.nav}>
-       
+      <nav className={styles.nav}>      
         <h1 className={styles.brand}>Vignesh Sadhu</h1>
         <ul className={styles.navItems}>
           <Link href="#about">About me</Link>

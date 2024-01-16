@@ -23,6 +23,59 @@ function Projects() {
         >
           <div>
             <Image
+              src="/projects/imageechoes.png"
+              width={700}
+              height={400}
+              alt="project1"
+              className={styles.image}
+            />
+          </div>
+          <div className={styles.info}>
+            <h3 className={styles.title}>Imageechoes</h3>
+            <p className={styles.description}>
+              A Photogallery website which displays all the images uploaded from
+              various users. Backend is managed by Sanity CMS and authentication
+              is handled using Firebase.
+            </p>
+            <ul className={styles.tech}>
+              <li>React.js</li>
+              <li>Google Firebase</li>
+              <li>TailwindCSS</li>
+            </ul>
+            <ul className={styles.links}>
+              <li>
+                <Link href="https://imageechoes.netlify.app/">
+                  <Image
+                    src="/live.png"
+                    width={24}
+                    height={24}
+                    alt="na"
+                    className={styles.link}
+                  />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://github.com/Vignesh2131/Image-Echoes">
+                  <Image
+                    src="/coding.png"
+                    width={24}
+                    height={24}
+                    alt="na"
+                    className={styles.link}
+                  />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 100 }}
+          className={styles.card}
+        >
+          <div>
+            <Image
               src="/projects/Sneaker-studio.png"
               width={700}
               height={400}
@@ -43,7 +96,7 @@ function Projects() {
             </ul>
             <ul className={styles.links}>
               <li>
-                <Link href="https://sneakers-studio.vercel.ap/">
+                <Link href="https://sneakers-studio.vercel.app/">
                   <Image
                     src="/live.png"
                     width={24}
@@ -208,7 +261,7 @@ function Projects() {
                 </Link>
               </li>
               <li>
-                <Link href="https://github.com/Vignesh2131/manage-landing-page">
+                <Link href="https://github.com/Vignesh2131/TIndog/">
                   <Image
                     src="/coding.png"
                     width={24}

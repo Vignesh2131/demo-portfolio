@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from "next/link";
 function Hero() {
   return (
-    <main className={styles.main} id='about'>
+    <main className={styles.main} id="about">
       <div className={styles.info}>
         <h2 className={styles.h2}>Hi I'm Vignesh</h2>
         <p className={styles.desc}>
@@ -15,6 +15,7 @@ function Hero() {
         <div className={styles.icons}>
           <Link href="https://www.linkedin.com/in/vignesh-sadhu-b85b9b217/">
             <Image
+              className="hover:scale-90"
               src="/linkedin.png"
               width={26}
               height={26}
@@ -22,10 +23,17 @@ function Hero() {
             />
           </Link>
           <Link href="https://github.com/Vignesh2131">
-            <Image src="/github.png" width={26} height={26} alt="github logo" />
+            <Image
+              className="hover:scale-90"
+              src="/github.png"
+              width={26}
+              height={26}
+              alt="github logo"
+            />
           </Link>
           <Link href="https://twitter.com/imVignesh21">
             <Image
+              className="hover:scale-90"
               src="/twitter.png"
               width={26}
               height={26}
