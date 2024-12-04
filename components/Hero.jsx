@@ -8,12 +8,10 @@ function Hero() {
       <div className={styles.info}>
         <h2 className={styles.h2}>Hi I'm Vignesh</h2>
         <p className={styles.desc}>
-          I am a passionate frontend developer and a final year undergraduate
-          student with a keen interest in web development. I aspire to
-          collaborate with passionate teams, dive into challenging projects.
+        Full Stack Developer
         </p>
         <div className={styles.icons}>
-          <Link href="https://www.linkedin.com/in/vignesh-sadhu-b85b9b217/">
+          <Link href="https://www.linkedin.com/in/vignesh-sadhu/">
             <Image
               className="hover:scale-90"
               src="/linkedin.png"
